@@ -14,10 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15378e04-0336-49d2-b979-8ede76f67f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/CBNvsCBV.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/DefaultvsNamedArgs.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/Strings.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/OOBasics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/OOBasics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Strings">
+  <component name="RunManager" selected="Application.OOBasics">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
       <module name="Beginners" />
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Recursion" />
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Recursion" />
+    <configuration name="Recursion (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Recursion" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.Strings" />
         <item itemvalue="Application.DefaultvsNamedArgs" />
         <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.Recursion (1)" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -144,31 +142,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="937" height="279" key="GridCell.Tab.0.bottom" timestamp="1608604549100">
+    <state width="937" height="279" key="GridCell.Tab.0.bottom" timestamp="1608776229643">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1608604549100" />
-    <state width="937" height="279" key="GridCell.Tab.0.center" timestamp="1608604549099">
+    <state width="937" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229643" />
+    <state width="937" height="279" key="GridCell.Tab.0.center" timestamp="1608776229642">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1608604549099" />
-    <state width="937" height="279" key="GridCell.Tab.0.left" timestamp="1608604549099">
+    <state width="937" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229642" />
+    <state width="937" height="279" key="GridCell.Tab.0.left" timestamp="1608776229641">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1608604549099" />
-    <state width="937" height="279" key="GridCell.Tab.0.right" timestamp="1608604549100">
+    <state width="937" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229641" />
+    <state width="937" height="279" key="GridCell.Tab.0.right" timestamp="1608776229642">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1608604549100" />
+    <state width="937" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229642" />
     <state x="201" y="261" width="604" height="548" key="find.popup" timestamp="1608490257288">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="201" y="261" width="604" height="548" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608490257288" />
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608603905992">
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608776721502">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608603905992" />
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608776721502" />
   </component>
 </project>
