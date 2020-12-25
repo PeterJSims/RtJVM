@@ -14,9 +14,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15378e04-0336-49d2-b979-8ede76f67f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/OOBasics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/OOBasics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/MethodNotation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part1basics/MethodNotations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Inheritance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Objects.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Person.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +60,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.OOBasics">
-    <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.CBNvsCBV" />
-      <module name="Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DefaultvsNamedArgs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.DefaultvsNamedArgs" />
-      <module name="Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part1basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+  <component name="RunManager" selected="Application.ListTest">
+    <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +74,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion (1)" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Recursion" />
+    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.InheritanceAndTraits" />
+      <module name="Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +100,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.Strings" />
+    <configuration name="MethodNotation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.MethodNotation" />
+      <module name="Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodNotations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part1basics.MethodNotations" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OOBasics" />
-        <item itemvalue="Application.Strings" />
-        <item itemvalue="Application.DefaultvsNamedArgs" />
-        <item itemvalue="Application.CBNvsCBV" />
-        <item itemvalue="Application.Recursion (1)" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.AbstractDataTypes" />
+        <item itemvalue="Application.InheritanceAndTraits" />
+        <item itemvalue="Application.MethodNotation" />
+        <item itemvalue="Application.MethodNotations" />
       </list>
     </recent_temporary>
   </component>
@@ -145,29 +150,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="937" height="279" key="GridCell.Tab.0.bottom" timestamp="1608776229643">
+    <state x="1144" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1608859870662">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229643" />
-    <state width="937" height="279" key="GridCell.Tab.0.center" timestamp="1608776229642">
+    <state x="1144" y="236" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1608859870662" />
+    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608815964054">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229642" />
-    <state width="937" height="279" key="GridCell.Tab.0.left" timestamp="1608776229641">
+    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1608815964054" />
+    <state width="900" height="279" key="GridCell.Tab.0.bottom" timestamp="1608860049923">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229641" />
-    <state width="937" height="279" key="GridCell.Tab.0.right" timestamp="1608776229642">
+    <state width="900" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1608860049923" />
+    <state width="900" height="279" key="GridCell.Tab.0.center" timestamp="1608860049922">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="937" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1608776229642" />
+    <state width="900" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1608860049922" />
+    <state width="900" height="279" key="GridCell.Tab.0.left" timestamp="1608860049921">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="900" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1608860049921" />
+    <state width="900" height="279" key="GridCell.Tab.0.right" timestamp="1608860049923">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state width="900" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1608860049923" />
     <state x="201" y="261" width="604" height="548" key="find.popup" timestamp="1608490257288">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="201" y="261" width="604" height="548" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608490257288" />
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608776721502">
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608840745371">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608776721502" />
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608840745371" />
   </component>
 </project>
