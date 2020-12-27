@@ -14,11 +14,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15378e04-0336-49d2-b979-8ede76f67f76" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Generics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Beginners.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Beginners.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Beginners/playground/JavaPlayground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/playground/JavaPlayground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part2oop/Objects.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part2oop/Objects.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playground/JavaPlayground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playground/JavaPlayground.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/Cons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/EmptyList$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/EmptyList$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/EmptyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/EmptyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/ListTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/exercises/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/exercises/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$Person$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$Person$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part2oop/Objects$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +65,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
-  <component name="RunManager" selected="Application.Objects">
-    <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
+  <component name="RunManager" selected="Application.ListTest">
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.InheritanceAndTraits" />
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.Generics" />
+        <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.Objects" />
         <item itemvalue="Application.JavaPlayground" />
-        <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.AbstractDataTypes" />
-        <item itemvalue="Application.InheritanceAndTraits" />
       </list>
     </recent_temporary>
   </component>
@@ -151,26 +159,26 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="1144" y="236" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1608859870662" />
-    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608815964054">
+    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609007911551">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1608815964054" />
-    <state width="900" height="279" key="GridCell.Tab.0.bottom" timestamp="1608862033428">
+    <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1609007911551" />
+    <state width="900" height="279" key="GridCell.Tab.0.bottom" timestamp="1609011531258">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1608862033428" />
-    <state width="900" height="279" key="GridCell.Tab.0.center" timestamp="1608862033427">
+    <state width="900" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1609011531258" />
+    <state width="900" height="279" key="GridCell.Tab.0.center" timestamp="1609011531257">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1608862033427" />
-    <state width="900" height="279" key="GridCell.Tab.0.left" timestamp="1608862033427">
+    <state width="900" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1609011531257" />
+    <state width="900" height="279" key="GridCell.Tab.0.left" timestamp="1609011531256">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1608862033427" />
-    <state width="900" height="279" key="GridCell.Tab.0.right" timestamp="1608862033427">
+    <state width="900" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1609011531256" />
+    <state width="900" height="279" key="GridCell.Tab.0.right" timestamp="1609011531257">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1608862033427" />
+    <state width="900" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1609011531257" />
     <state x="795" y="174" key="SettingsEditor" timestamp="1608862031714">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
@@ -179,9 +187,9 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="201" y="261" width="604" height="548" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608490257288" />
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1608861923080">
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1609010902683">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608861923080" />
+    <state x="953" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1609010902683" />
   </component>
 </project>
