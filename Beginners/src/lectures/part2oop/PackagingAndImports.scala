@@ -33,7 +33,7 @@ object PackagingAndImports extends App {
 
   // imports of the same name -- see imports for aliasing
   val date = new Date
-  val sqlDate = Date2
+//  val sqlDate = Date2
 
   // default imports
   // java.lang
