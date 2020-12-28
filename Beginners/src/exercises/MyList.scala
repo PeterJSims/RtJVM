@@ -21,7 +21,7 @@ abstract class MyList[+A] {
   def ++[B >: A](list: MyList[B]): MyList[B]
 }
 
-object EmptyList extends MyList[Nothing] {
+case object EmptyList extends MyList[Nothing] {
   def head: Nothing = throw new NoSuchElementException
 
   def tail: MyList[Nothing] = throw new NoSuchElementException
@@ -39,7 +39,7 @@ object EmptyList extends MyList[Nothing] {
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
 }
 
-class Cons[+A](val h: A, t: MyList[A]) extends MyList[A] {
+case class Cons[+A](val h: A, t: MyList[A]) extends MyList[A] {
   def head: A = h
 
   def tail: MyList[A] = t
@@ -78,6 +78,7 @@ trait MyTransformer[-A,B]{
 object ListTest extends App {
 
   val listOfIntegers: MyList[Int] = new Cons(1, new Cons(2, new Cons(3, EmptyList)))
+  val clonedListOfIntegers: MyList[Int] = new Cons(1, new Cons(2, new Cons(3, EmptyList)))
   val anotherListOfIntegers: MyList[Int] = new Cons(4, new Cons(5, new Cons(6, EmptyList)))
 
   val listOfStrings: MyList[String] = new Cons("one", new Cons("two", new Cons("three", EmptyList)))
@@ -98,5 +99,9 @@ object ListTest extends App {
     override def transform(a: Int): MyList[Int] = new Cons(a, new Cons[Int](a + 1, EmptyList))
 
   }).toString)
+
+
+  println(listOfIntegers == clonedListOfIntegers) // TRUE BECAUSE OF CASE CLASSES
+  // otherwise wed' have to have a recursive equals method
 
 }
