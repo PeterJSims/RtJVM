@@ -144,4 +144,13 @@ object ListTest extends App {
 
   println(listOfIntegers.fold(0)(_ + _))
 
+  //for comprehension tests
+
+  val forCompTest = for {
+    n <- listOfIntegers
+    str <- listOfStrings
+  } yield f"${n}-${str}"
+
+  println(forCompTest)
+
 }
