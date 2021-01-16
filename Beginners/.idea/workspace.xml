@@ -14,8 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15378e04-0336-49d2-b979-8ede76f67f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lectures/part4patterns/AllThePatterns.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part4patterns/PatternsEverywhere.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/others/MonadsLecture.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
-  <component name="RunManager" selected="Application.PatternsEverywhere">
+  <component name="RunManager" selected="Application.MonadsLecture">
     <configuration name="AllThePatterns" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part4patterns.AllThePatterns" />
       <module name="Beginners" />
@@ -79,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Failures" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3functional.Failures" />
+    <configuration name="MonadsLecture" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.others.MonadsLecture" />
       <module name="Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part3functional.*" />
+          <option name="PATTERN" value="lectures.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MonadsLecture" />
         <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.AllThePatterns" />
         <item itemvalue="Application.PatternMatching (1)" />
         <item itemvalue="Application.PatternMatching" />
-        <item itemvalue="Application.Failures" />
       </list>
     </recent_temporary>
   </component>
@@ -163,30 +162,30 @@
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="913" y="224" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1792.1026@0.23.1792.1026" timestamp="1610151495090" />
-    <state width="900" height="279" key="GridCell.Tab.0.bottom" timestamp="1610314950436">
+    <state width="854" height="279" key="GridCell.Tab.0.bottom" timestamp="1610805237160">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1610314950436" />
-    <state width="900" height="279" key="GridCell.Tab.0.center" timestamp="1610314950434">
+    <state width="854" height="279" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1610805237160" />
+    <state width="854" height="279" key="GridCell.Tab.0.center" timestamp="1610805237159">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1610314950434" />
-    <state width="900" height="279" key="GridCell.Tab.0.left" timestamp="1610314950434">
+    <state width="854" height="279" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1610805237159" />
+    <state width="854" height="279" key="GridCell.Tab.0.left" timestamp="1610805237159">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1610314950434" />
-    <state width="900" height="279" key="GridCell.Tab.0.right" timestamp="1610314950435">
+    <state width="854" height="279" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1610805237159" />
+    <state width="854" height="279" key="GridCell.Tab.0.right" timestamp="1610805237159">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state width="900" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1610314950435" />
+    <state width="854" height="279" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1610805237159" />
     <state x="795" y="174" key="SettingsEditor" timestamp="1608862031714">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
     <state x="795" y="174" key="SettingsEditor/0.23.1792.1026@0.23.1792.1026" timestamp="1608862031714" />
-    <state x="201" y="261" width="604" height="548" key="find.popup" timestamp="1608490257288">
+    <state x="201" y="261" width="604" height="548" key="find.popup" timestamp="1610805211130">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
-    <state x="201" y="261" width="604" height="548" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1608490257288" />
+    <state x="201" y="261" width="604" height="548" key="find.popup/0.23.1792.1026@0.23.1792.1026" timestamp="1610805211130" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1609118973538">
       <screen x="0" y="23" width="1792" height="1026" />
     </state>
