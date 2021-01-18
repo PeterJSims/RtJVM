@@ -10,43 +10,43 @@ object Options extends App {
   val myFirstOption: Option[Int] = Some(4)
   val noOption: Option[Int] = None
 
-  println(myFirstOption)
-  println(noOption)
+  // Options are great for unsafe APIs and avoiding crashes
 
-  // Working with unsafe APIs
+  // unsafe API example
   def unsafeMethod(): String = null
 
-  //  val result = Some(unsafeMethod()) // WRONG BECAUSE unsafeMethod COULD RETURN NULL
-  // SOME() SHOULD *NEVER* RETURN A NULL VALUE
-  val result = Option(unsafeMethod()) // Option provides Some or None depending
+  //  val result = Some(unsafeMethod()) // WRONG because it could be Some(null)
+  val result = Option(unsafeMethod()) // returns None
   println(result)
 
   // chained methods
-  def backupMethod(): String = "result"
+  def backupMethod(): String = "A valid result"
 
   val chainedResult = Option(unsafeMethod()).orElse(Option(backupMethod()))
 
-  // Designing unsafe APIs
+  // DESIGN unsafe APIs
+  // make something return Option to avoid nulls
   def betterUnsafeMethod(): Option[String] = None
 
   def betterBackupMethod(): Option[String] = Some("A valid result")
 
-  val betterChainedResult = betterBackupMethod() orElse betterBackupMethod()
+  val betterChainedMethod = betterUnsafeMethod() orElse betterBackupMethod()
 
   // functions on Options
   println(myFirstOption.isEmpty)
-  println(myFirstOption.get) // UNSAFE -> COULD GRAB NULL
+  println(myFirstOption.get) // UNSAFE - DO NOT USE THIS
 
-  // map, flatMap, filter
+  // map, flatMap, filter on Options
   println(myFirstOption.map(_ * 2))
-  println(myFirstOption.filter(_ % 3 == 0))
+  println(myFirstOption.filter(x => x < 4))
   println(myFirstOption.flatMap(x => Option(x * 10)))
 
+  // for-comprehensions
 
-  // quick exercise
   val config: Map[String, String] = Map(
-    "host" -> "176.45.36.1",
-    "port" -> "8080"
+    // fetched from elsewhere - could fail1
+    "host" -> "176.45.32.1",
+    "port" -> "8080" // what if this was null
   )
 
   class Connection {
@@ -54,55 +54,44 @@ object Options extends App {
   }
 
   object Connection {
-    val random = new Random(System.nanoTime())
+    val randomGenerator = new Random(System.nanoTime())
 
     def apply(host: String, port: String): Option[Connection] =
-      if (random.nextBoolean()) Some(new Connection)
+      if (randomGenerator.nextBoolean()) Some(new Connection)
       else None
   }
 
-  // establish a connection - if so, print the connect method
+  // try to establish a connection
   val host = config.get("host")
   val port = config.get("port")
   /*
-    if (h && p){
-      return Connection.apply(h,p)
-    }
+    if (h != null)
+      if (p != null)
+        return Connection.apply(h, p)
     return null
-
-    IMPERATIVE VERSION OF BELOW
    */
   val connection = host.flatMap(h => port.flatMap(p => Connection.apply(h, p)))
-
   /*
-    if (c) {
+    if (c != null)
       return c.connect
-    }
-    return null
+    else null
    */
-  val connectionStatus = connection.map(_.connect)
-  // if (!connectionStatus) println(None) else println(Some(connectionStatus.get))
-  println(connectionStatus)
-  /*
-    if (status) {
-      println(status
-      }
-   */
+  val connectionStatus = connection.map(c => c.connect)
   connectionStatus.foreach(println)
 
-  // chained way
+
   config.get("host")
     .flatMap(host => config.get("port")
-    .flatMap(port => Connection(host, port))
-    .map(connection => connection.connect))
+      .flatMap(port => Connection(host, port))
+      .map(connection => connection.connect))
     .foreach(println)
-
 
   // for-comprehension version
   val forConnectionStatus = for {
     host <- config.get("host")
     port <- config.get("port")
-    connection <- Connection(host, port )
+    connection <- Connection(host, port)
   } yield connection.connect
+  forConnectionStatus.foreach(println)
 
 }
