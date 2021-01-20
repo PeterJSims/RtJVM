@@ -1,0 +1,9 @@
+this
+is
+a
+text
+file
+hello
+from
+the
+file
