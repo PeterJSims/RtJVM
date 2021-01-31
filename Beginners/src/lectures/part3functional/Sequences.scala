@@ -14,7 +14,7 @@ object Sequences extends App {
   println()
 
   //Ranges
-  val aRange: Seq[Int] = 1 to 10
+  val aRange = 1 to 10
   aRange.foreach(x => print(s"${x} "))
   println()
 

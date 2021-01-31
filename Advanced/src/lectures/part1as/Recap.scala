@@ -69,7 +69,7 @@ object Recap extends App {
   val aPotentialFailure = try {
     throw new RuntimeException
   } catch {
-    case e: Exception => "I caught an exception"
+    case e: Exception => s"I caught an exception: $e"
   } finally {
     println("logging here")
   }
