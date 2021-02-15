@@ -14,16 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15378e04-0336-49d2-b979-8ede76f67f76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Advanced/src/lectures/part1as/AdvancedPatternMatching.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/DarkSugars$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/DarkSugars$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/DarkSugars.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/DarkSugars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/Recap$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/Recap$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/Recap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/out/production/Advanced/lectures/part1as/Recap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Advanced/src/lectures/part1as/Recap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Advanced/src/lectures/part1as/Recap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/src/exercises/MySet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/src/lectures/part2afp/FunctionalCollections.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Advanced/src/lectures/part2afp/PartialFunctions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part3functional/Sequences$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part3functional/Sequences$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Beginners/lectures/part3functional/Sequences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Beginners/lectures/part3functional/Sequences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3functional/Sequences.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3functional/Sequences.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
