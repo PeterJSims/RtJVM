@@ -38,6 +38,7 @@ object PartialFunctions extends App {
     case 45 => 67
   }
 
+  println("HERE")
   println(partialFunctionChain(2))
   println(partialFunctionChain(45))
 
