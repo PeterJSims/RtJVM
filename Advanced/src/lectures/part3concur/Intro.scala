@@ -22,8 +22,8 @@ object Intro extends App {
 
   val threadHello = new Thread(() => (1 to 5).foreach(_ => println("Hello")))
   val threadGoodbye = new Thread(() => (1 to 5).foreach(_ => println("Goodbye")))
-  threadHello.start()
-  threadGoodbye.start()
+//  threadHello.start()
+//  threadGoodbye.start()
   // different runs provide different results!
 
   // executors
@@ -94,4 +94,16 @@ object Intro extends App {
     }
 
   // option #2: use @volatile <--- all reads and writes are synchronized (check BankAccount class)
+
+  // exercise 1 - inception threads
+  def inceptionThreads(maxThreads: Int, i: Int = 1): Thread = new Thread(() => {
+    if (i < maxThreads) {
+      val newThread = inceptionThreads(maxThreads, i + 1)
+      newThread.start()
+      newThread.join()
+    }
+    println(s"Hello from thread $i")
+  })
+
+  inceptionThreads(10).start()
 }
